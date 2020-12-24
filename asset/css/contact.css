@@ -1,0 +1,476 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.65),rgba(0,0,0,0.70)),
+    url(../images/font3.jpg )center center no-repeat;
+    height:650px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+.container{
+    width: 70%;
+    margin: 5% auto;
+}
+.header-top{
+    
+        width: 100%;
+        height: 80px;
+        background-color: #243243;
+        padding: 20px;
+        margin: 0 auto;
+    }
+.logo{
+    float: left;
+    width: 15%;
+
+}
+.logo_titel{
+    font-weight: 700;
+    font-size: 30px;
+    color:#FFF;
+}
+.header-navbar{
+    float: right;
+   
+    width: 70%;
+    text-align: center;
+}
+.header-navbar ul li{
+    color: snow;
+    margin: 10px auto;
+    display:inline-block;
+    padding:1%;
+    font:12px;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+  
+  }
+  #btn{
+    color: snow;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+   
+  }
+  .mobial-nav{
+    float: right;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    color: #fff;
+    width: 25%;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+   
+}
+.humberger{
+    display: none;
+}
+
+  .header-titel{
+      margin-top: 25px;
+      text-align: center;
+      color: rgb(128, 162, 206);
+      font-style: italic;
+     
+  }
+  .header-titel p:nth-child(1){
+    font-size:20px;
+   
+    
+    font-weight: 500;
+    line-height: 20px;
+  }
+
+
+
+.icon{
+    color: #fff;
+    font-size: 30px;
+}
+#btn1{
+margin-left:65px;
+margin-top: -25px;
+} 
+
+
+.icon_com a{
+    color: cornsilk;
+}
+.icon_post{
+
+  color: rgb(223, 33, 33);
+  width: 105px;
+  height: 40px;
+  background-color: rgb(13, 39, 83);
+  border-radius: 8px 4px;
+}
+.icon_post a{
+   color: cornsilk; 
+}
+.btn-i{
+    color: brown;
+}
+
+#contact{
+    margin: 5% auto;
+    text-align: center;
+}
+
+.from{
+    
+    width: 70%;
+
+    margin: 5% auto;
+}
+.from label{
+    color: rgb(71, 184, 212);
+    font-weight: 800;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+}
+.fotter{
+   
+    height: 90px;
+    width: 100%;
+    background:  rgb(128, 128, 125);
+}
+
+.rightfotter{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+.midelfotter{
+    
+    float: left;
+    width: 32%;
+}
+
+.mfooter{
+    font-size: 18px;
+    color: azure;
+    margin: 30px;
+    font-weight: 800;
+}
+.leftfooter{
+    float: left;
+    margin-top: 30px;
+}
+
+.fix-margin:before{
+    content:"";
+    clear:both;
+    display:table;
+}
+.clear:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.textarebox{
+    display: none;
+}
+@media (max-width: 768px){
+    header{
+  
+ 
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .logo{
+        float: left;
+        width: 20%;
+    
+    }
+    .post{
+  
+       width: 100%;
+     
+       
+        background: rgb(221, 219, 212);
+        
+    }
+    #card_id{
+       
+        margin-top:2px;
+        width: 95% ;
+        margin-left: -10px;
+    }
+    .comment-section{
+        width: 100% ;
+        margin-top: -80px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        
+        
+    }
+    .btn-lvc{
+        margin-top: -10px;
+        height: 75px;
+    }
+    .btn-com{
+        margin-top:-10px;
+        height: 75px;
+    }
+    .icon_com{
+        color: #FFF;
+        font-size: 12px;
+    
+        font-weight: 600;
+        width: 75px;
+        height: 40px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    .icon_post{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 70px;
+        height: 40px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+ .textarebox{
+     width: 90%;
+ }
+ .mfooter{
+    font-size: 12px;
+    color: azure;
+    margin: 32px;
+    font-weight: 800;
+}
+.leftfooter{
+    float: right;
+    margin-top: 30px;
+    margin-right:70px;
+}
+
+}
+@media (max-width: 576px){
+    header{
+        height:auto;
+        position: relative;
+    }
+  
+    .header-top{
+      
+        width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+     
+    }
+    .logo{
+        float: left;
+        width: 28%;
+        font-size: 20px;
+    
+    }
+    .logo_titel{
+        font-weight: 700;
+        font-size: 20px;
+        color:#FFF;
+    }
+    .main-nav{
+        display: none;
+       }
+       .main-nav ul li{
+           margin: 10px auto;
+           display:inline-block;
+           padding:1%;
+           font:12px;
+           color: #fff;
+           font-weight: bold;
+          
+       }
+       .search-bar{
+           float: right;
+           color: #FFF;
+           margin-top: .8%;
+           margin-right: 4%;
+           display: none;
+       }
+       .mobial-nav{
+           float: right;
+           background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+           color: #fff;
+           width: 20%;
+           margin-top: 20px;
+           right: 0;
+           padding: 20px;
+           position: absolute;
+           z-index: 1;
+           display: none;
+          
+       }
+       .mobial-nav ul li{
+           margin:10px;
+           list-style-type: none;
+           padding:5px 0;
+           font-size:11px;
+           color: #fff;
+           font-weight: bold;
+           text-align: center;
+          
+          
+       }
+      
+       .close{
+           float: left;
+           color:#fff;
+           background-color:black;
+           height: 30px;
+           width: 30px;
+           border: none;
+           font-size: 20px;
+       }
+       .humberger{
+           background-color: #2b2d2f;
+           color: #fff;
+           height: 50px;
+           width: 50px;
+           font-size: 20px;
+           position: fixed;
+           top: 0;
+           right:0;
+           z-index: 2;
+           border: none;
+           display: block;
+       }
+       .header-navbar{
+        display: none;
+       }
+
+      .header-titel{
+          margin-top: 50px;
+          text-align: center;
+          color: beige;
+      }
+      .header-titel p:nth-child(1){
+        font-size:15px;
+    
+        font-weight: 500;
+        line-height: 10px;
+      }
+      .header-titel p:nth-child(2){
+         line-height: 20px;
+        font-size:15px;
+      
+        font-weight: bold;
+      }
+      #font{
+        
+        font-size:15px;
+       font-weight: bold; 
+      }
+    
+
+    .icon{
+        color: #fff;
+        font-size: 30px;
+    }
+    #btn1{
+    margin-left:65px;
+    margin-top: -25px;
+    } 
+    .user{
+        margin-top: -20px;
+    }
+    .posyby p{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .date{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .comment-section{
+        width: 100% ;
+       
+        
+        
+    } .btn-lvc{
+        margin-top: -25px;
+        width: 100%;
+
+    }
+    .container_like{
+     width: 100%;
+    }
+    .icon_com{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 60px;
+        height: 35px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    .icon_post{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 60px;
+        height: 30px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    #Views{
+        margin-top: -47px;
+        margin-left: 80px;
+    }
+    #like{
+        margin-top: -47px;
+        margin-left: 160px;  
+    }
+
+ .textarebox{
+     width: 90%;
+ }
+
+.fotter{
+       
+    height: 80px;
+    width: 100%;
+    background:  rgb(128, 128, 125);
+}
+
+.rightfotter{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+.midelfotter{
+    
+    float: left;
+    width: 32.5%;
+    font-size: 7px;
+}
+.mfooter{
+color: azure;
+}
+.leftfooter{
+    float: left;
+  
+}
+}
+

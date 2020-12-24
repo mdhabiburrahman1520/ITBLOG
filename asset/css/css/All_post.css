@@ -1,0 +1,253 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0,0,0,0.35)),
+    url(../images/smp4.jpg )center center no-repeat;
+    height:600px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+.container{
+    width: 70%;
+    margin: 5% auto;
+}
+.header-top{
+    
+        width: 100%;
+        height: 80px;
+        background-color: #243243;
+        padding: 20px;
+        margin: 0 auto;
+       
+    }
+.logo{
+    float: left;
+    width: 15%;
+
+}
+.logo_titel{
+    font-weight: 700;
+    font-size: 30px;
+    color:#FFF;
+}
+.header-navbar{
+    float: right;
+   
+    width: 70%;
+    text-align: center;
+}
+.header-navbar ul li{
+    color: snow;
+    margin: 10px auto;
+    display:inline-block;
+    padding:1%;
+    font:12px;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+  
+  }
+  #btn{
+    color: snow;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+   
+  }
+  .mobial-nav{
+    float: right;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    color: #fff;
+    width: 25%;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+   
+}
+.humberger{
+    display: none;
+}
+
+  .header-titel{
+      margin-top: 250px;
+      text-align: center;
+      color: beige;
+  }
+  .header-titel p:nth-child(1){
+    font-size:20px;
+
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .header-titel p:nth-child(2){
+     line-height: 70px;
+    font-size:35px;
+  
+    font-weight: bold;
+  }
+  #font{
+    line-height: 70px;
+    font-size:35px;
+  
+    font-weight: bold; 
+  }
+  .blog_titel{
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+.post{
+   
+    padding:2%;
+    margin-top: -25px;
+    background: rgb(221, 219, 212);
+    
+}
+.col{
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-bottom: 80px;
+    padding: 5px;
+}
+.clm{
+
+}
+#card_id{
+    width: 50rem;
+    
+}
+#imght{
+    height: 600px;
+}
+
+
+.user{
+    padding:2px;
+}
+
+.fotter{
+   
+    height: 90px;
+    width: 100%;
+    background:  rgb(128, 128, 125);
+}
+.fotter-navbar ul li{
+    margin: 30px auto;
+    display:inline-block;
+    padding:1%;
+    font:12px;
+    font-weight: bold; 
+}
+.rightfotter{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+.midelfotter{
+    
+    float: left;
+    width: 32%;
+}
+
+.mfooter{
+    font-size: 18px;
+    color: azure;
+    margin: 30px;
+    font-weight: 800;
+}
+.leftfooter{
+    float: left;
+    margin-top: 30px;
+}
+.icon{
+    color: #fff;
+    font-size: 30px;
+}
+#btn1{
+margin-left:65px;
+margin-top: -25px;
+} 
+.user{
+    margin-top:5px;
+}
+.post_by {
+color: rgb(15, 15, 15);
+font-size: 14px;
+font-weight: 600;
+
+}
+.date {
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+#post_by_date{
+    font-size:12px;
+    font-weight: 500;
+    color: rgb(107, 98, 98);
+}
+#post_by_name{
+    font-size:12px;
+    font-weight: 500;
+    color: rgb(107, 98, 98);
+}
+
+.comment-section{
+    width: 70%;
+    margin-top: -80px;
+    margin-left: 80px;
+    margin-bottom: 10px;
+    
+}
+.messeges{
+ 
+   
+    font-size: 15px;
+    height:100px;
+    width: 100%;
+    border-top: 0;
+    border-left: 0 ;
+    border-right: 0;
+    border-bottom: 1px solid;
+    resize: none;
+}
+
+#comment{
+    color: rgb(49, 43, 43);
+    font-weight: 700;
+}
+.Submit-btn input[type="submit"],
+.Submit-btn input[type="reset"]
+{
+    width: 65px;
+  margin-top: 10px;
+  color:#fff ;
+  background: #267be2;
+  border-radius: 8px 8px;
+ 
+
+}
+
+.fix-margin:before{
+    content:"";
+    clear:both;
+    display:table;
+}
+.clear:after{
+    content:"";
+    clear:both;
+    display:table;
+}

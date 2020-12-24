@@ -1,0 +1,631 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.25),rgba(0,0,0,0.35)),
+    url(../images/smp4.jpg )center center no-repeat;
+    height:600px;
+    width: 100%;
+    background-size: 100%;
+    position: relative;
+}
+.container{
+    width: 70%;
+    margin: 5% auto;
+}
+.header-top{
+    
+        width: 100%;
+        height: 80px;
+        background-color: #243243;
+        padding: 20px;
+        margin: 0 auto;
+    }
+.logo{
+    float: left;
+    width: 15%;
+
+}
+.logo_titel{
+    font-weight: 700;
+    font-size: 30px;
+    color:#FFF;
+}
+.header-navbar{
+    float: right;
+   
+    width: 70%;
+    text-align: center;
+}
+.header-navbar ul li{
+    color: snow;
+    margin: 10px auto;
+    display:inline-block;
+    padding:1%;
+    font:12px;
+    font-weight: bold;
+}
+a:link {
+    text-decoration: none;
+  
+  }
+  #btn{
+    color: snow;
+  }
+  a:hover, a:active {
+    text-decoration: underline;
+   
+  }
+  .mobial-nav{
+    float: right;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+    color: #fff;
+    width: 25%;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    display: none;
+   
+}
+.humberger{
+    display: none;
+}
+
+  .header-titel{
+      margin-top: 250px;
+      text-align: center;
+      color: beige;
+  }
+  .header-titel p:nth-child(1){
+    font-size:20px;
+
+    font-weight: 500;
+    line-height: 20px;
+  }
+  .header-titel p:nth-child(2){
+     line-height: 70px;
+    font-size:35px;
+  
+    font-weight: bold;
+  }
+  .card-body{
+      width: 85% auto ;
+  }
+  #font{
+    line-height: 70px;
+    font-size:35px;
+  
+    font-weight: bold; 
+  }
+  .blog_titel{
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: 600;
+  }
+
+.post{
+   
+    padding:2%;
+    margin-top: -25px;
+    background: rgb(221, 219, 212);
+    
+}
+.col{
+    margin-top: 5px;
+    margin-left: 10%;
+    margin-bottom: 80px;
+    padding: 5px;
+}
+
+
+#card_id{
+    width: 50rem;
+    box-shadow: 0 8px 12px 0 rgba(0, 0, 0, 0.75), 0 10px 22px 0 rgba(0, 0, 0, 0.62);
+    
+}
+#imght{
+    height: 600px;
+    box-shadow: 8px -4px rgb(154, 154, 167);
+}
+
+.icon{
+    color: #fff;
+    font-size: 30px;
+}
+#btn1{
+margin-left:65px;
+margin-top: -25px;
+} 
+.user{
+    margin-top:5px;
+    box-shadow:2px 4px #243243;
+}
+.post_by {
+color: rgb(15, 15, 15);
+font-size: 14px;
+font-weight: 600;
+
+
+}
+.date {
+    color: rgb(15, 15, 15);
+    font-size: 14px;
+    font-weight: 600;
+    
+    }
+#post_by_date{
+    font-size:12px;
+    font-weight: 500;
+    color: rgb(107, 98, 98);
+}
+#post_by_name{
+    font-size:12px;
+    font-weight: 500;
+    color: rgb(107, 98, 98);
+}
+
+.comment-section{
+    width: 80% ;
+    margin-top: -80px;
+    margin-left: 60px;
+    margin-bottom: 15px;
+    
+    
+}
+.btn-lvc{
+    margin-top: -25px;
+}
+.btn-com{
+    margin-top: -25px;
+}
+.icon_com{
+    color: #FFF;
+    width: 110px;
+    height: 45px;
+    background-color: rgb(13, 39, 83);
+    border-radius: 12px 4px;
+    
+}
+.icon_com a{
+    color: cornsilk;
+}
+.icon_post{
+
+  color: rgb(223, 33, 33);
+  width: 105px;
+  height: 40px;
+  background-color: rgb(13, 39, 83);
+  border-radius: 8px 4px;
+}
+.icon_post a{
+   color: cornsilk; 
+}
+.btn-i{
+    color: brown;
+}
+.messeges{
+ 
+   
+    font-size: 15px;
+    height:100px;
+    width: 100%;
+    border-top: 0;
+    border-left: 0 ;
+    border-right: 0;
+    border-bottom: 1px solid;
+    resize: none;
+}
+
+
+#comment{
+    color: rgb(49, 43, 43);
+    font-weight: 700;
+}
+.Submit-btn input[type="submit"],
+.Submit-btn input[type="reset"]
+{
+    width: 65px;
+  margin-top: 10px;
+  color:#fff ;
+  background:  rgb(13, 39, 83);
+  border-radius: 8px 8px;
+ 
+
+}
+
+.mobial-nav{
+  float: right;
+  background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+  color: #fff;
+  width: 25%;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  position: absolute;
+  z-index: 1;
+  display: none;
+ 
+}
+.humberger{
+  display: none;
+}
+.fotter{
+   
+    height: 110px;
+    width: 100%;
+    background:  rgb(128, 128, 125);
+}
+
+.rightfotter{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+.midelfotter{
+    
+    float: left;
+    width: 32%;
+}
+
+.mfooter{
+    font-size: 18px;
+    color: azure;
+    margin: 30px;
+    font-weight: 800;
+}
+.leftfooter{
+    float: left;
+    margin-top: 30px;
+}
+
+.fix-margin:before{
+    content:"";
+    clear:both;
+    display:table;
+}
+.clear:after{
+    content:"";
+    clear:both;
+    display:table;
+}
+.textarebox{
+    display: none;
+}
+@media (max-width: 768px){
+    header{
+  
+ 
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .logo{
+        float: left;
+        width: 20%;
+    
+    }
+    .post{
+  
+       width: 100%;
+     
+       
+        background: rgb(221, 219, 212);
+        
+    }
+    #card_id{
+       
+        margin-top:2px;
+        width: 95% ;
+        margin-left: -10px;
+    }
+    .comment-section{
+        width: 100% ;
+        margin-top: -80px;
+        margin-left: 20px;
+        margin-bottom: 15px;
+        
+        
+    }
+    .btn-lvc{
+        margin-top: -10px;
+        height: 75px;
+    }
+    .btn-com{
+        margin-top:-10px;
+        height: 75px;
+    }
+    .icon_com{
+        color: #FFF;
+        font-size: 12px;
+    
+        font-weight: 600;
+        width: 75px;
+        height: 40px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    .icon_post{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 70px;
+        height: 40px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+ .textarebox{
+     width: 90%;
+ }
+ .mfooter{
+    font-size: 12px;
+    color: azure;
+    margin: 32px;
+    font-weight: 800;
+}
+.leftfooter{
+    float: right;
+    margin-top: 30px;
+    margin-right:70px;
+}
+
+}
+@media (max-width: 576px){
+    header{
+        height:auto;
+        position: relative;
+    }
+  
+    .header-top{
+      
+        width: 100%;
+        padding: 5px;
+        margin: 0 auto;
+     
+    }
+    .logo{
+        float: left;
+        width: 28%;
+        font-size: 20px;
+    
+    }
+    .logo_titel{
+        font-weight: 700;
+        font-size: 20px;
+        color:#FFF;
+    }
+    .main-nav{
+        display: none;
+       }
+       .main-nav ul li{
+           margin: 10px auto;
+           display:inline-block;
+           padding:1%;
+           font:12px;
+           color: #fff;
+           font-weight: bold;
+          
+       }
+       .search-bar{
+           float: right;
+           color: #FFF;
+           margin-top: .8%;
+           margin-right: 4%;
+           display: none;
+       }
+       .mobial-nav{
+           float: right;
+           background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
+           color: #fff;
+           width: 20%;
+           margin-top: 20px;
+           right: 0;
+           padding: 20px;
+           position: absolute;
+           z-index: 1;
+           display: none;
+          
+       }
+       .mobial-nav ul li{
+           margin:10px;
+           list-style-type: none;
+           padding:5px 0;
+           font-size:11px;
+           color: #fff;
+           font-weight: bold;
+           text-align: center;
+          
+          
+       }
+      
+       .close{
+           float: left;
+           color:#fff;
+           background-color:black;
+           height: 30px;
+           width: 30px;
+           border: none;
+           font-size: 20px;
+       }
+       .humberger{
+           background-color: #2b2d2f;
+           color: #fff;
+           height: 50px;
+           width: 50px;
+           font-size: 20px;
+           position: fixed;
+           top: 0;
+           right:0;
+           z-index: 2;
+           border: none;
+           display: block;
+       }
+       .header-navbar{
+        display: none;
+       }
+
+      .header-titel{
+          margin-top: 50px;
+          text-align: center;
+          color: beige;
+      }
+      .header-titel p:nth-child(1){
+        font-size:15px;
+    
+        font-weight: 500;
+        line-height: 10px;
+      }
+      .header-titel p:nth-child(2){
+         line-height: 20px;
+        font-size:15px;
+      
+        font-weight: bold;
+      }
+      #font{
+        
+        font-size:15px;
+       font-weight: bold; 
+      }
+      #card_id{
+       
+        margin-top:2px;
+        width: 100% ;
+        margin-left: -10px;
+    }
+      #imght{
+        height: 400px;
+        box-shadow: 8px -4px rgb(154, 154, 167);
+    }
+   .post{
+      
+       width: 100%;
+       height:auto;
+       position: relative;
+   }
+   .post-area{
+       padding: 2px;
+       margin-bottom: 50px;
+   }
+   .container{
+       width: 100%;
+       margin: 20px auto;
+       margin-right: 50px;
+      
+   }
+   #clm{
+       margin:5%;
+   }
+    
+
+    .user{
+        padding: 1%;
+    }
+    .propular{
+      
+        padding: 40px;
+        height: 680px;
+        width: 100%;
+        background: linear-gradient(rgba(0,0,0,.85),rgba(0, 0, 0, 0.65));
+    }
+
+    .icon{
+        color: #fff;
+        font-size: 30px;
+    }
+    #btn1{
+    margin-left:65px;
+    margin-top: -25px;
+    } 
+    .user{
+        margin-top: -20px;
+    }
+    .posyby p{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .date{
+        font-size: 11px;
+        font-weight: 900;
+    }
+    .comment-section{
+        width: 100% ;
+       
+        
+        
+    } .btn-lvc{
+        margin-top: -25px;
+        width: 100%;
+
+    }
+    .container_like{
+     width: 100%;
+    }
+    .icon_com{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 60px;
+        height: 35px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    .icon_post{
+        color: #FFF;
+        font-size: 12px;
+        font-weight: 600;
+        width: 60px;
+        height: 30px;
+        background-color: rgb(13, 39, 83);
+        border-radius: 12px 4px;
+        
+    }
+    #Views{
+        margin-top: -47px;
+        margin-left: 80px;
+    }
+    #like{
+        margin-top: -47px;
+        margin-left: 160px;  
+    }
+
+ .textarebox{
+     width: 90%;
+ }
+
+.fotter{
+       
+    height: 80px;
+    width: 100%;
+    background:  rgb(128, 128, 125);
+}
+
+.rightfotter{
+    color: #fff;
+    margin-top: 25px;
+    text-align: center;
+    float: left;
+    width: 32%;
+}
+.midelfotter{
+    
+    float: left;
+    width: 32.5%;
+    font-size: 7px;
+}
+.mfooter{
+color: azure;
+}
+.leftfooter{
+    float: left;
+  
+}
+}

@@ -1,0 +1,116 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.80),rgba(0,0,0,0.75)),
+    url(../images/smp3.jpg )center center no-repeat;
+    height:700px;
+    width: 100%;
+    background-size:100%;
+    position: relative;
+}
+.header-top{
+  
+    padding: 20px;
+    text-align: center;
+    color: cornsilk;
+    font-size: 25px;
+    font-weight: 700;
+}
+.manu{
+   margin-top: -100px;
+    font-size:15px;
+    color: rgb(36, 34, 29);
+    font-weight: 800;
+    line-height: 40px;
+    padding: 10px;
+    height: 680px;
+    background: rgb(144, 247, 26);
+    width: 180px;
+}
+.manu ul li{
+  margin-top: 5px;
+  
+}
+.navbar{
+  margin-top:35px;
+}
+a:link {
+
+  text-decoration: none;
+  
+
+}
+.box{
+    height: 500px;
+    width: 800px;
+    border: 3px wheat dotted ;
+    margin-left: 300px;
+    margin-top: -600px;
+}
+.row{
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  .row label{
+    color:#1d76e2 ;
+    width: 150px;
+    display: inline-block;
+  }
+  .row input{
+    color:#243243 ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+  
+  
+  }
+  .row input[type="text"]{
+    background: rgb(23, 23, 24)  ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+    border-bottom: 1px solid #316db6;
+  }
+  .row input[type="date"]{
+    background: rgb(23, 23, 24)  ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+    border-bottom: 1px solid #316db6;
+  }
+  .row input[type="file"]{
+    background: rgb(23, 23, 24)  ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+    border-bottom: 1px solid #316db6;
+  }
+ 
+  .Submit-btn{
+    max-width: 250px;
+    margin: 20px auto;
+  }
+  .Submit-btn input[type="submit"],
+  .Submit-btn input[type="reset"]
+  {
+    color:#fff ;
+    background: #436999;
+    width: 100px ;
+    height: 30px;
+    margin: 0 10px;
+  
+  }
+  .background_style{
+    height: 5px;
+    width: 800px;
+    background-color: rgb(14, 238, 238);
+  
+  }

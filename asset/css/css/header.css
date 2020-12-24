@@ -1,0 +1,153 @@
+*{
+    margin:0;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0,0,0,0.65)),
+    url(../images/smp3.jpg )center center no-repeat;
+    height:700px;
+    width: 100%;
+    background-size:100%;
+    position: relative;
+}
+.header-top{
+   
+    padding: 20px;
+    margin-left: 500px;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 500;
+}
+.ht{
+  font-family:sans-serif;
+}
+.manu{
+   
+    margin-top: -100px;
+    font-size:15px;
+    color: rgb(36, 34, 29);
+    font-weight: 700;
+    line-height: 40px;
+    padding: 10px;
+    height: 680px;
+    background: rgba(64, 20, 116, 0.161);
+    width: 230px;
+    color:wheat;
+}
+.manu ul li{
+  margin-left: 2px;
+  margin-top:5px;
+  display: block;
+ 
+  
+}
+.navbar{
+  margin-top:10px;
+}
+a:link {
+  font-family:monospace ;
+  text-decoration: none;
+  
+
+}
+.adminimg{
+ width:20%;
+  
+}
+#btn{
+  
+  color: rgb(240, 247, 242);
+}
+.box{
+    height: 550px;
+    width: 960px;
+    border: 3px wheat dotted ;
+    margin-left:270px;
+    margin-top: -580px;
+}
+.addbtn{
+  height: 30px;
+  width: 50px;
+  color:#fff;
+  font-size: 20px;
+  font-weight: 700;
+
+}
+
+form{
+ padding: 5%;
+
+}
+
+table{
+  text-decoration-color: white;
+}
+.table-hover{
+  color: #07d675;
+}
+.logo{
+  margin-top: 20px;
+  color: rgb(4, 2, 15);
+}
+.row{
+    max-width: 600px;
+    margin: 10px auto;
+  }
+  .row label{
+    color:#f6f8fa ;
+    width: 150px;
+    display: inline-block;
+  }
+  .row input{
+    color:#07d675 ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+  
+  
+  }
+  .row input[type="text"]{
+    background: rgb(23, 23, 24)  ;
+    width: 400px ;
+    height: 30px;
+    display:inline-block ;
+    border: none;
+    border-bottom: 1px solid #316db6;
+  }
+  .Submit-btn{
+    max-width: 250px;
+    margin: 20px auto;
+  }
+  .Submit-btn input[type="submit"],
+  .Submit-btn input[type="reset"]
+  {
+    color:#fff ;
+    text-shadow: none;
+    background: linear-gradient(90deg,#3603ff,#a41ee9);
+    font-family: sans-serif;
+    border-radius: 25px;
+    width: 100px ;
+    height: 30px;
+    margin: 0 10px;
+  
+  }
+  .background_style{
+    height: 5px;
+    width: 800px;
+    background-color: rgb(14, 238, 238);
+  
+    
+  }
+  .fix-margin:before{
+    content:"";
+    clear:both;
+    display:table;
+}
+.clear:after{
+    content:"";
+    clear:both;
+    display:table;
+}
